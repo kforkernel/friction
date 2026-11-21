@@ -51,6 +51,10 @@ A lightweight, Unix-like command-line shell written in Rust. It supports interac
 $ pwd
 /home/user/projects/rust-shell
 cd /tmp
+$ 'Hello,
+> multiline world!'
+Hello,
+multiline world!
 $ type echo
 echo is a shell builtin
 $ exit
