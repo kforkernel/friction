@@ -1,4 +1,4 @@
-# Rust Shell (`@kforkernel`)
+# Friction Shell (`@kforkernel`)
 
 > **⚠️ Work in Progress:** This shell is currently under active development. It is functional with multi-argument support and basic built-ins, though some bugs and incomplete features remain.
 
@@ -6,7 +6,7 @@ A lightweight, Unix-like command-line shell written in Rust. It supports interac
 
 ---
 
-## ✨ Features
+## Features
 
 * **Built-in Commands:**
   * `exit` — Exits the shell with status code `0`.
@@ -24,7 +24,7 @@ A lightweight, Unix-like command-line shell written in Rust. It supports interac
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 * [Rust & Cargo](https://rust-lang.org) (latest stable version recommended)
@@ -34,8 +34,8 @@ A lightweight, Unix-like command-line shell written in Rust. It supports interac
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com<repo-name>.git
-   cd <repo-name>
+   git clone https://github.com/kforkernel/friction
+   cd friction
    ```
 
 2. **Build and run the shell:**
@@ -45,23 +45,20 @@ A lightweight, Unix-like command-line shell written in Rust. It supports interac
 
 ---
 
-## 💻 Usage Example
+## Usage Example
 
 ```text
-\$ pwd
+$ pwd
 /home/user/projects/rust-shell
-\(cd /tmp\) echo 'Hello,
-> multiline world!'
-Hello,
-multiline world!
-\$ type echo
+cd /tmp
+$ type echo
 echo is a shell builtin
-\$ exit
+$ exit
 ```
 
 ---
 
-## 🗺️ Roadmap / Known Limitations
+## Roadmap / Known Limitations
 
 * [ ] Add support for double quotes (`"..."`) and escape characters (`\`).
 * [ ] Implement I/O redirection (`>`, `>>`, `<`) and pipelines (`|`).
@@ -70,7 +67,7 @@ echo is a shell builtin
 
 ---
 
-## 📄 License
+## License
 
 Copyright © 2026 **@kforkernel**. All rights reserved.  
 Licensed under the **kforkernel Use License (KUL) v1.0**. See [LICENSE.md](LICENSE.md) for terms and conditions.
